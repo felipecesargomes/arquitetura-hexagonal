@@ -34,18 +34,18 @@ R - Reusabilidade do código, alta coesão, baixo acoplamento da regra de negóc
 
 ### Centro Hexágono
 
-<i>Dentro do hexágono estarão a parte mais importante do sistema, que serão as regras de negócio do sistema.</i>
+<b>Interno Hexágono</b>
 
 Este é o ponto pelo qual as interações externas são introduzidas no sistema. Vamos explorar mais sobre esse lado da arquitetura:
 
-<i>Lado Esquerdo</i>
+<b>Lado Esquerdo</b>
 Descrição: Representa interfaces ou pontos de contato através dos quais a aplicação recebe entradas. Estes podem ser APIs, interfaces de usuário (GUIs), ou qualquer outro meio através do qual um ator externo (como um usuário ou outro sistema) interage com a aplicação.
 Exemplos:
 - Web services (APIs RESTful ou SOAP)
 - Interfaces de usuário (por exemplo, uma aplicação web ou móvel)
 - Sistemas de mensagens (como filas de mensagens)
 
-<i>Lado Direito</i>
+<b>Lado Direito</b>
 Descrição: Representa interfaces ou pontos de contato através dos quais a aplicação interage com recursos externos (serviços de infraestrutura). Estes podem ser sistemas de armazenamento de dados, serviços externos, ou qualquer outro meio pelo qual a aplicação envia ou recebe dados do mundo exterior.
 
 Exemplos:
