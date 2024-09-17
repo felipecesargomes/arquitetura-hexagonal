@@ -7,8 +7,8 @@ R - É uma padrão de projeto. A arquitetura hexagonal se divide em 2 grupos, cl
 Tendo como focos principais:
 
 - Desenvolvimento orientado a TDD.
-- foco nos requisitos de negócio.
-- adiar decisões técnicas o máximo possível.
+- Foco nos requisitos de negócio.
+- Adiar decisões técnicas o máximo possível.
 
 Então podemos concluir que quando adotamos essa arquitetura estamos dando o máximo de importância para o desenvolvimento da regra de negócio e tudo que for relacionado a tecnologias, seja API's ou banco de dados será segundo plano.
 
